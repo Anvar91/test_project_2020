@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1980px;
+  margin: 0px;
+}
+
+.main-page {
+  display: flex;
+}
+
+.intro-block {
+  background-image: url(./img/OBC_SS12_Clima_PR_Beckham_01_low1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar {
+  max-width: 1816px;
+  margin: 10px 84px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  font-size: 26px;
+  font-family: "Century Gothic";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 0px 4.24px rgba(102, 102, 102, 0.7);
+  left: 373.633px;
+  top: -9.199px;
+  z-index: 42;
+  }
+
+.contacts {
+  align-items: center;
+  margin-top: 35px;
+}
+
+.call {
+  width: 150px;
+  height: 100px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.discount-text {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-family: "Century Gothic";
+  font-size: 28px;
+  line-height: 47px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 110px;
+}
+
+p {
+  margin: 0px;
+  font-weight: 700;
+}
+
+.adidas {
+  text-align: center;
+  width: 570px;
+}
+
+.adidas-logo {
+  width: 350px;
+  margin-left: 45px;
+}
+
+.main-discount {
+  font-size: 50px;
+}
+
+.official-shop {
+  background-color: #000000;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+.shop {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 72px rgba(11, 11, 11, 0.7);
+  font-size: 45px;
+  font-family: "Century Gothic";
+  font-weight: 700;
+}
+
+.middle-block {
+  background-color: #000000;
+}
+
+.products {
+  display: flex;
+  max-width: 1980px;
+  margin: auto;
+}
