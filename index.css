@@ -4,11 +4,8 @@
 
 body {
   max-width: 1980px;
+  height: auto;
   margin: 0px;
-}
-
-.main-page {
-  display: flex;
 }
 
 .intro-block {
@@ -17,7 +14,6 @@ body {
   background-repeat: no-repeat;
   overflow-y: hidden;
   width: 100%;
-  position: absolute;
 }
 
 .navbar {
@@ -77,6 +73,7 @@ p {
 .adidas {
   text-align: center;
   width: 570px;
+  margin-bottom: 70px;
 }
 
 .adidas-logo {
@@ -91,7 +88,7 @@ p {
 .official-shop {
   background-color: #000000;
   margin-top: 10px;
-  overflow-x: hidden;
+  box-shadow: 0 -25px 25px #000000;
 }
 
 .shop {
@@ -103,12 +100,78 @@ p {
   font-weight: 700;
 }
 
+.image, .image1 {
+  width: 275px;
+  height: 250px;
+}
+
+.image img {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.image1 img {
+  max-height: 100%;
+  max-width: 100%;
+  position: static;
+}
+
 .middle-block {
   background-color: #000000;
+  display: flex;
 }
 
 .products {
   display: flex;
-  max-width: 1980px;
-  margin: auto;
+  margin: 30px auto;
+}
+
+.last-block {
+  display: flex;
+  max-width: 100%;
+}
+
+.place {
+  width: 50%;
+}
+
+.place img {
+  width: 100%;
+}
+
+.address {
+  width: 50%;
+  display: flex;
+}
+
+.address img {
+  width: 100%;
+}
+
+.address1 {
+  width: 80px;
+  height: 230px;
+  position: absolute;
+  margin: 55px 0 0 131px;
+}
+
+.address2 {
+  width: 50px;
+  position: absolute;
+  margin: 73px 0 0 145px;
+}
+
+.address3 {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-family: "Century Gothic";
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+  height: 80px;
+  margin: 120px 0 0 420px;
 }
